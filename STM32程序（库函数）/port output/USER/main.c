@@ -79,8 +79,8 @@ int main(void)
     GPIO_SetBits(GPIOB,GPIO_Pin_0);
             
     delay_ms(1500);
-    GPIO_ResetBits(GPIOB,GPIO_Pin_0);
-             
-    delay_ms(1500);
+//    GPIO_ResetBits(GPIOB,GPIO_Pin_0);
+//             
+//    delay_ms(1500);
 	}   
 }
